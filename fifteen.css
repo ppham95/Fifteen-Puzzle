@@ -1,0 +1,31 @@
+/*
+
+Phu-Lam Pham
+CSE 154 AO
+
+Stylesheet for Fifteen Puzzle Game webpage.
+
+Extra Feature: Multiple Backgrounds.
+
+*/
+
+body {
+    text-align: center;
+    font-family: cursive;
+    font-size: 14pt;
+}
+
+#puzzlearea, .squares {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+    padding: 0;
+}
+
+.squares {
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	margin: 0px;
+	border: 5px solid black;
+	font-size: 40pt;
+}
